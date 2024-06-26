@@ -33,5 +33,34 @@ let myObj = {
        console.log("Hello World");
   }
 
-  console.log(typeof outsideTemp);
+//   console.log(typeof outsideTemp);
    
+
+
+  // ******************************************
+
+
+  // Memorys
+  // Stack (Primitive) (we get copy in stack), Heap (Non primitive) (we get reference in heap)
+
+  let myYoutubename = "sandeepdhanger"
+
+  let anothername = myYoutubename
+  anothername = "chaiaurcode"
+
+  console.log(myYoutubename);
+  console.log(anothername);
+
+  let userOne = {
+     email : "user@google.com",
+     upi: "user@ybl",
+  }
+
+  let userTwo = userOne 
+
+  userTwo.email = "sandeep@google.com"
+
+  console.log(userOne.email);
+  console.log(userTwo.email);
+
+  
