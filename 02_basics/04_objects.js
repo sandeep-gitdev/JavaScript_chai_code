@@ -52,10 +52,40 @@
     ]
 
     users[1].email
-    console.log(tinderUser);
+    // console.log(tinderUser);
 
-    console.log(Object.keys(tinderUser));
-    console.log(Object.values(tinderUser));
-    console.log(Object.entries(tinderUser));
+    // console.log(Object.keys(tinderUser));
+    // console.log(Object.values(tinderUser));
+    // console.log(Object.entries(tinderUser));
 
-    console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+    // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+    //  ******************  Destructuring in Objects ***************
+
+    const course = {
+       coursename: "js in hind",
+       price: "999",
+       courseInstructor: "sandeep"
+    }
+
+    // course.courseInstructor
+
+    const {courseInstructor: instructor} = course // destructure the name 
+   
+    // console.log(courseInsttructor);
+    console.log(instructor);
+
+        // JSON api snytax
+
+        // {
+        //   "name": "sandeep",
+        //   "coursename": "js in hinid",
+        //   "price": "free"
+        // }
+
+        [
+          {},
+          {},
+          {}
+        ]
+
