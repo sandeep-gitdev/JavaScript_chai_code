@@ -1,7 +1,7 @@
 # Project related to DOM
 
 ## project link
- [click here] (https://stackblitz.com/edit/stackblitz-starters-if4nmv?file=DOM-Projects%2Findex.html)
+ [click here] (https://stackblitz.com/edit/dom-project-chaiaurcode-ypgp8j?file=index.html)
 
 # solution code
 
