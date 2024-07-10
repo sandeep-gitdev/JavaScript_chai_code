@@ -26,9 +26,9 @@
 
  //const obj3 = { obj1, obj2}
 
- //  const obj3 = Object.assign({}, obj1, obj2, obj3)
+ //  const obj3 = Object.assign(obj1, obj2,) //join object with using object.assign method
 
-    const obj3 = {...obj1, ...obj2}
+    const obj3 = {...obj1, ...obj2}  // join object with using spread method
   // console.log(obj3);
 
 
